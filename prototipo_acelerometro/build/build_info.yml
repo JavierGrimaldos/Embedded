@@ -1,0 +1,61 @@
+cmake:
+  application:
+    configuration-dir: 'C:/Users/javie/Desktop/Universidad/Master/Embedded/prototipo_acelerometro'
+    source-dir: 'C:/Users/javie/Desktop/Universidad/Master/Embedded/prototipo_acelerometro'
+  board:
+    name: 'nucleo_wl55jc'
+    path:
+     - 'C:/Users/javie/zephyrproject/zephyr/boards/st/nucleo_wl55jc'
+    qualifiers: 'stm32wl55xx'
+    revision: ''
+  devicetree:
+    bindings-dirs:
+     - 'C:/Users/javie/zephyrproject/zephyr/dts/bindings'
+    files:
+     - 'C:/Users/javie/zephyrproject/zephyr/boards/st/nucleo_wl55jc/nucleo_wl55jc.dts'
+     - './boards/nucleo_wl55jc.overlay'
+    include-dirs:
+     - 'C:/Users/javie/zephyrproject/modules/hal/ambiq/dts'
+     - 'C:/Users/javie/zephyrproject/modules/hal/atmel/include'
+     - 'C:/Users/javie/zephyrproject/modules/hal/bouffalolab/include'
+     - 'C:/Users/javie/zephyrproject/modules/hal/bouffalolab/include/zephyr'
+     - 'C:/Users/javie/zephyrproject/modules/hal/gigadevice/include'
+     - 'C:/Users/javie/zephyrproject/modules/hal/microchip/include'
+     - 'C:/Users/javie/zephyrproject/modules/hal/microchip/dts'
+     - 'C:/Users/javie/zephyrproject/modules/hal/nuvoton/dts'
+     - 'C:/Users/javie/zephyrproject/modules/hal/nxp/dts'
+     - 'C:/Users/javie/zephyrproject/modules/hal/stm32/dts'
+     - 'C:/Users/javie/zephyrproject/modules/hal/ti/dts'
+     - 'C:/Users/javie/zephyrproject/zephyr/include'
+     - 'C:/Users/javie/zephyrproject/zephyr/include/zephyr'
+     - 'C:/Users/javie/zephyrproject/zephyr/dts/common'
+     - 'C:/Users/javie/zephyrproject/zephyr/dts/vendor'
+     - 'C:/Users/javie/zephyrproject/zephyr/dts/rx'
+     - 'C:/Users/javie/zephyrproject/zephyr/dts/x86'
+     - 'C:/Users/javie/zephyrproject/zephyr/dts/xtensa'
+     - 'C:/Users/javie/zephyrproject/zephyr/dts/sparc'
+     - 'C:/Users/javie/zephyrproject/zephyr/dts/riscv'
+     - 'C:/Users/javie/zephyrproject/zephyr/dts/posix'
+     - 'C:/Users/javie/zephyrproject/zephyr/dts/arm64'
+     - 'C:/Users/javie/zephyrproject/zephyr/dts/arm'
+     - 'C:/Users/javie/zephyrproject/zephyr/dts/arc'
+     - 'C:/Users/javie/zephyrproject/zephyr/dts'
+    user-files:
+     - './boards/nucleo_wl55jc.overlay'
+  kconfig:
+    files:
+     - 'C:/Users/javie/zephyrproject/zephyr/boards/st/nucleo_wl55jc/nucleo_wl55jc_defconfig'
+     - 'C:/Users/javie/Desktop/Universidad/Master/Embedded/prototipo_acelerometro/./confs/prj_nucleo_wl55jc.conf'
+    user-files:
+     - './confs/prj_nucleo_wl55jc.conf'
+  toolchain:
+    name: 'zephyr'
+    path: 'C:/Users/javie/zephyr-sdk-0.17.4'
+  zephyr:
+    version: '4.2.99'
+    zephyr-base: 'C:/Users/javie/zephyrproject/zephyr'
+version: '0.1.0'
+west:
+  command: 'C:\Users\javie\zephyrproject\.venv\Scripts\west build -p auto -b nucleo_wl55jc C:/Users/javie/Desktop/Universidad/Master/Embedded/prototipo_acelerometro -d C:/Users/javie/Desktop/Universidad/Master/Embedded/prototipo_acelerometro/build -DUSER_CACHE_DIR=C:/Users/javie/Desktop/Universidad/Master/Embedded/prototipo_acelerometro/.zephyr-cache -DDTC_OVERLAY_FILE=./boards/nucleo_wl55jc.overlay -DCONF_FILE=./confs/prj_nucleo_wl55jc.conf -DUSE_CCACHE=0'
+  topdir: 'C:\Users\javie\zephyrproject'
+  version: '1.5.0'

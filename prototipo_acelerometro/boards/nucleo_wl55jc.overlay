@@ -1,0 +1,26 @@
+#include <zephyr/dt-bindings/pinctrl/stm32-pinctrl.h>
+
+&i2c1 {
+	status = "okay";
+	clock-frequency = <400000>;
+	pinctrl-0 = <&i2c1_scl_pb6 &i2c1_sda_pb7>;
+	pinctrl-names = "default";
+	
+	mma8451@1d {
+		compatible = "nxp,mma8451";
+		reg = <0x1d>;
+		status = "okay";
+		
+		/* EJEMPLO: Configurar pin de interrupción - AJUSTA ESTE PIN */
+		int1-gpios = <&gpioc 13 GPIO_ACTIVE_HIGH>;  /* PC13 como ejemplo */
+	};
+};
+
+/* Configurar el pin de interrupción */
+&pinctrl {
+	/* EJEMPLO: Configuración para PC13 como entrada */
+	accel_int_pin: accel_int_pin {
+		pinmux = <STM32_PINMUX('C', 13, GPIO)>;
+		bias-pull-up;
+	};
+};
