@@ -4665,3 +4665,723 @@ events:
         - "C:\\Users\\javie\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
       CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/Zephyr-Kernel"
 ...
+
+---
+events:
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/FindPython/Support.cmake:2430 (find_program)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/FindPython3.cmake:656 (include)"
+      - "C:/Users/javie/zephyrproject/zephyr/cmake/modules/python.cmake:41 (find_package)"
+      - "C:/Users/javie/zephyrproject/zephyr/cmake/modules/zephyr_default.cmake:131 (include)"
+      - "C:/Users/javie/zephyrproject/zephyr/share/zephyr-package/cmake/ZephyrConfig.cmake:66 (include)"
+      - "C:/Users/javie/zephyrproject/zephyr/share/zephyr-package/cmake/ZephyrConfig.cmake:97 (include_boilerplate)"
+      - "CMakeLists.txt:5 (find_package)"
+    mode: "program"
+    variable: "_Python3_EXECUTABLE_DEBUG"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "python3.14_d"
+      - "python3.13_d"
+      - "python3.12_d"
+      - "python3.11_d"
+      - "python3.10_d"
+      - "python3_d"
+      - "python_d"
+    candidate_directories:
+      - "C:/Users/javie/zephyrproject/.venv/Scripts/"
+    searched_directories:
+      - "C:/Users/javie/zephyrproject/.venv/Scripts/python3.14_d.com"
+      - "C:/Users/javie/zephyrproject/.venv/Scripts/python3.14_d.exe"
+      - "C:/Users/javie/zephyrproject/.venv/Scripts/python3.14_d"
+      - "C:/Users/javie/zephyrproject/.venv/Scripts/python3.13_d.com"
+      - "C:/Users/javie/zephyrproject/.venv/Scripts/python3.13_d.exe"
+      - "C:/Users/javie/zephyrproject/.venv/Scripts/python3.13_d"
+      - "C:/Users/javie/zephyrproject/.venv/Scripts/python3.12_d.com"
+      - "C:/Users/javie/zephyrproject/.venv/Scripts/python3.12_d.exe"
+      - "C:/Users/javie/zephyrproject/.venv/Scripts/python3.12_d"
+      - "C:/Users/javie/zephyrproject/.venv/Scripts/python3.11_d.com"
+      - "C:/Users/javie/zephyrproject/.venv/Scripts/python3.11_d.exe"
+      - "C:/Users/javie/zephyrproject/.venv/Scripts/python3.11_d"
+      - "C:/Users/javie/zephyrproject/.venv/Scripts/python3.10_d.com"
+      - "C:/Users/javie/zephyrproject/.venv/Scripts/python3.10_d.exe"
+      - "C:/Users/javie/zephyrproject/.venv/Scripts/python3.10_d"
+      - "C:/Users/javie/zephyrproject/.venv/Scripts/python3_d.com"
+      - "C:/Users/javie/zephyrproject/.venv/Scripts/python3_d.exe"
+      - "C:/Users/javie/zephyrproject/.venv/Scripts/python3_d"
+      - "C:/Users/javie/zephyrproject/.venv/Scripts/python_d.com"
+      - "C:/Users/javie/zephyrproject/.venv/Scripts/python_d.exe"
+      - "C:/Users/javie/zephyrproject/.venv/Scripts/python_d"
+    found: false
+    search_context:
+      ENV{PATH}:
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\ProgramData\\chocolatey\\bin"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Users\\javie\\AppData\\Local\\Programs\\Python\\Launcher\\"
+        - "C:\\Users\\javie\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\javie\\AppData\\Local\\Microsoft\\WinGet\\Links"
+        - "C:\\Users\\javie\\AppData\\Local\\Microsoft\\WinGet\\Packages\\oss-winget.dtc_Microsoft.Winget.Source_8wekyb3d8bbwe\\usr\\bin"
+        - "C:\\Users\\javie\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+      CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/Zephyr-Kernel"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Users/javie/zephyrproject/zephyr/cmake/compiler/gcc/target.cmake:8 (find_program)"
+      - "C:/Users/javie/zephyrproject/zephyr/cmake/modules/FindTargetTools.cmake:103 (include)"
+      - "C:/Users/javie/zephyrproject/zephyr/cmake/modules/kernel.cmake:25 (find_package)"
+      - "C:/Users/javie/zephyrproject/zephyr/cmake/modules/zephyr_default.cmake:140 (include)"
+      - "C:/Users/javie/zephyrproject/zephyr/share/zephyr-package/cmake/ZephyrConfig.cmake:66 (include)"
+      - "C:/Users/javie/zephyrproject/zephyr/share/zephyr-package/cmake/ZephyrConfig.cmake:97 (include_boilerplate)"
+      - "CMakeLists.txt:5 (find_package)"
+    mode: "program"
+    variable: "CMAKE_C_COMPILER"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "C:/Users/javie/zephyr-sdk-0.17.4/arm-zephyr-eabi/bin/arm-zephyr-eabi-gcc"
+    candidate_directories:
+      - "C:/Users/javie/zephyr-sdk-0.17.4/"
+    searched_directories:
+      - "C:/Users/javie/zephyr-sdk-0.17.4/arm-zephyr-eabi/bin/arm-zephyr-eabi-gcc.com"
+    found: "C:/Users/javie/zephyr-sdk-0.17.4/arm-zephyr-eabi/bin/arm-zephyr-eabi-gcc.exe"
+    search_context:
+      CMAKE_PREFIX_PATH:
+        - "C:/Users/javie/zephyr-sdk-0.17.4/sysroots/AMD64-pokysdk-linux/usr"
+      ENV{PATH}:
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\ProgramData\\chocolatey\\bin"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Users\\javie\\AppData\\Local\\Programs\\Python\\Launcher\\"
+        - "C:\\Users\\javie\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\javie\\AppData\\Local\\Microsoft\\WinGet\\Links"
+        - "C:\\Users\\javie\\AppData\\Local\\Microsoft\\WinGet\\Packages\\oss-winget.dtc_Microsoft.Winget.Source_8wekyb3d8bbwe\\usr\\bin"
+        - "C:\\Users\\javie\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+      CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/Zephyr-Kernel"
+...
+
+---
+events:
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/FindPython/Support.cmake:2430 (find_program)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/FindPython3.cmake:656 (include)"
+      - "C:/Users/javie/zephyrproject/zephyr/cmake/modules/python.cmake:41 (find_package)"
+      - "C:/Users/javie/zephyrproject/zephyr/cmake/modules/zephyr_default.cmake:131 (include)"
+      - "C:/Users/javie/zephyrproject/zephyr/share/zephyr-package/cmake/ZephyrConfig.cmake:66 (include)"
+      - "C:/Users/javie/zephyrproject/zephyr/share/zephyr-package/cmake/ZephyrConfig.cmake:97 (include_boilerplate)"
+      - "CMakeLists.txt:5 (find_package)"
+    mode: "program"
+    variable: "_Python3_EXECUTABLE_DEBUG"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "python3.14_d"
+      - "python3.13_d"
+      - "python3.12_d"
+      - "python3.11_d"
+      - "python3.10_d"
+      - "python3_d"
+      - "python_d"
+    candidate_directories:
+      - "C:/Users/javie/zephyrproject/.venv/Scripts/"
+    searched_directories:
+      - "C:/Users/javie/zephyrproject/.venv/Scripts/python3.14_d.com"
+      - "C:/Users/javie/zephyrproject/.venv/Scripts/python3.14_d.exe"
+      - "C:/Users/javie/zephyrproject/.venv/Scripts/python3.14_d"
+      - "C:/Users/javie/zephyrproject/.venv/Scripts/python3.13_d.com"
+      - "C:/Users/javie/zephyrproject/.venv/Scripts/python3.13_d.exe"
+      - "C:/Users/javie/zephyrproject/.venv/Scripts/python3.13_d"
+      - "C:/Users/javie/zephyrproject/.venv/Scripts/python3.12_d.com"
+      - "C:/Users/javie/zephyrproject/.venv/Scripts/python3.12_d.exe"
+      - "C:/Users/javie/zephyrproject/.venv/Scripts/python3.12_d"
+      - "C:/Users/javie/zephyrproject/.venv/Scripts/python3.11_d.com"
+      - "C:/Users/javie/zephyrproject/.venv/Scripts/python3.11_d.exe"
+      - "C:/Users/javie/zephyrproject/.venv/Scripts/python3.11_d"
+      - "C:/Users/javie/zephyrproject/.venv/Scripts/python3.10_d.com"
+      - "C:/Users/javie/zephyrproject/.venv/Scripts/python3.10_d.exe"
+      - "C:/Users/javie/zephyrproject/.venv/Scripts/python3.10_d"
+      - "C:/Users/javie/zephyrproject/.venv/Scripts/python3_d.com"
+      - "C:/Users/javie/zephyrproject/.venv/Scripts/python3_d.exe"
+      - "C:/Users/javie/zephyrproject/.venv/Scripts/python3_d"
+      - "C:/Users/javie/zephyrproject/.venv/Scripts/python_d.com"
+      - "C:/Users/javie/zephyrproject/.venv/Scripts/python_d.exe"
+      - "C:/Users/javie/zephyrproject/.venv/Scripts/python_d"
+    found: false
+    search_context:
+      ENV{PATH}:
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\ProgramData\\chocolatey\\bin"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Users\\javie\\AppData\\Local\\Programs\\Python\\Launcher\\"
+        - "C:\\Users\\javie\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\javie\\AppData\\Local\\Microsoft\\WinGet\\Links"
+        - "C:\\Users\\javie\\AppData\\Local\\Microsoft\\WinGet\\Packages\\oss-winget.dtc_Microsoft.Winget.Source_8wekyb3d8bbwe\\usr\\bin"
+        - "C:\\Users\\javie\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+      CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/Zephyr-Kernel"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Users/javie/zephyrproject/zephyr/cmake/compiler/gcc/target.cmake:8 (find_program)"
+      - "C:/Users/javie/zephyrproject/zephyr/cmake/modules/FindTargetTools.cmake:103 (include)"
+      - "C:/Users/javie/zephyrproject/zephyr/cmake/modules/kernel.cmake:25 (find_package)"
+      - "C:/Users/javie/zephyrproject/zephyr/cmake/modules/zephyr_default.cmake:140 (include)"
+      - "C:/Users/javie/zephyrproject/zephyr/share/zephyr-package/cmake/ZephyrConfig.cmake:66 (include)"
+      - "C:/Users/javie/zephyrproject/zephyr/share/zephyr-package/cmake/ZephyrConfig.cmake:97 (include_boilerplate)"
+      - "CMakeLists.txt:5 (find_package)"
+    mode: "program"
+    variable: "CMAKE_C_COMPILER"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "C:/Users/javie/zephyr-sdk-0.17.4/arm-zephyr-eabi/bin/arm-zephyr-eabi-gcc"
+    candidate_directories:
+      - "C:/Users/javie/zephyr-sdk-0.17.4/"
+    searched_directories:
+      - "C:/Users/javie/zephyr-sdk-0.17.4/arm-zephyr-eabi/bin/arm-zephyr-eabi-gcc.com"
+    found: "C:/Users/javie/zephyr-sdk-0.17.4/arm-zephyr-eabi/bin/arm-zephyr-eabi-gcc.exe"
+    search_context:
+      CMAKE_PREFIX_PATH:
+        - "C:/Users/javie/zephyr-sdk-0.17.4/sysroots/AMD64-pokysdk-linux/usr"
+      ENV{PATH}:
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\ProgramData\\chocolatey\\bin"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Users\\javie\\AppData\\Local\\Programs\\Python\\Launcher\\"
+        - "C:\\Users\\javie\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\javie\\AppData\\Local\\Microsoft\\WinGet\\Links"
+        - "C:\\Users\\javie\\AppData\\Local\\Microsoft\\WinGet\\Packages\\oss-winget.dtc_Microsoft.Winget.Source_8wekyb3d8bbwe\\usr\\bin"
+        - "C:\\Users\\javie\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+      CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/Zephyr-Kernel"
+...
+
+---
+events:
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/FindPython/Support.cmake:2430 (find_program)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/FindPython3.cmake:656 (include)"
+      - "C:/Users/javie/zephyrproject/zephyr/cmake/modules/python.cmake:41 (find_package)"
+      - "C:/Users/javie/zephyrproject/zephyr/cmake/modules/zephyr_default.cmake:131 (include)"
+      - "C:/Users/javie/zephyrproject/zephyr/share/zephyr-package/cmake/ZephyrConfig.cmake:66 (include)"
+      - "C:/Users/javie/zephyrproject/zephyr/share/zephyr-package/cmake/ZephyrConfig.cmake:97 (include_boilerplate)"
+      - "CMakeLists.txt:5 (find_package)"
+    mode: "program"
+    variable: "_Python3_EXECUTABLE_DEBUG"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "python3.14_d"
+      - "python3.13_d"
+      - "python3.12_d"
+      - "python3.11_d"
+      - "python3.10_d"
+      - "python3_d"
+      - "python_d"
+    candidate_directories:
+      - "C:/Users/javie/zephyrproject/.venv/Scripts/"
+    searched_directories:
+      - "C:/Users/javie/zephyrproject/.venv/Scripts/python3.14_d.com"
+      - "C:/Users/javie/zephyrproject/.venv/Scripts/python3.14_d.exe"
+      - "C:/Users/javie/zephyrproject/.venv/Scripts/python3.14_d"
+      - "C:/Users/javie/zephyrproject/.venv/Scripts/python3.13_d.com"
+      - "C:/Users/javie/zephyrproject/.venv/Scripts/python3.13_d.exe"
+      - "C:/Users/javie/zephyrproject/.venv/Scripts/python3.13_d"
+      - "C:/Users/javie/zephyrproject/.venv/Scripts/python3.12_d.com"
+      - "C:/Users/javie/zephyrproject/.venv/Scripts/python3.12_d.exe"
+      - "C:/Users/javie/zephyrproject/.venv/Scripts/python3.12_d"
+      - "C:/Users/javie/zephyrproject/.venv/Scripts/python3.11_d.com"
+      - "C:/Users/javie/zephyrproject/.venv/Scripts/python3.11_d.exe"
+      - "C:/Users/javie/zephyrproject/.venv/Scripts/python3.11_d"
+      - "C:/Users/javie/zephyrproject/.venv/Scripts/python3.10_d.com"
+      - "C:/Users/javie/zephyrproject/.venv/Scripts/python3.10_d.exe"
+      - "C:/Users/javie/zephyrproject/.venv/Scripts/python3.10_d"
+      - "C:/Users/javie/zephyrproject/.venv/Scripts/python3_d.com"
+      - "C:/Users/javie/zephyrproject/.venv/Scripts/python3_d.exe"
+      - "C:/Users/javie/zephyrproject/.venv/Scripts/python3_d"
+      - "C:/Users/javie/zephyrproject/.venv/Scripts/python_d.com"
+      - "C:/Users/javie/zephyrproject/.venv/Scripts/python_d.exe"
+      - "C:/Users/javie/zephyrproject/.venv/Scripts/python_d"
+    found: false
+    search_context:
+      ENV{PATH}:
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\ProgramData\\chocolatey\\bin"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Users\\javie\\AppData\\Local\\Programs\\Python\\Launcher\\"
+        - "C:\\Users\\javie\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\javie\\AppData\\Local\\Microsoft\\WinGet\\Links"
+        - "C:\\Users\\javie\\AppData\\Local\\Microsoft\\WinGet\\Packages\\oss-winget.dtc_Microsoft.Winget.Source_8wekyb3d8bbwe\\usr\\bin"
+        - "C:\\Users\\javie\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+      CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/Zephyr-Kernel"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Users/javie/zephyrproject/zephyr/cmake/compiler/gcc/target.cmake:8 (find_program)"
+      - "C:/Users/javie/zephyrproject/zephyr/cmake/modules/FindTargetTools.cmake:103 (include)"
+      - "C:/Users/javie/zephyrproject/zephyr/cmake/modules/kernel.cmake:25 (find_package)"
+      - "C:/Users/javie/zephyrproject/zephyr/cmake/modules/zephyr_default.cmake:140 (include)"
+      - "C:/Users/javie/zephyrproject/zephyr/share/zephyr-package/cmake/ZephyrConfig.cmake:66 (include)"
+      - "C:/Users/javie/zephyrproject/zephyr/share/zephyr-package/cmake/ZephyrConfig.cmake:97 (include_boilerplate)"
+      - "CMakeLists.txt:5 (find_package)"
+    mode: "program"
+    variable: "CMAKE_C_COMPILER"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "C:/Users/javie/zephyr-sdk-0.17.4/arm-zephyr-eabi/bin/arm-zephyr-eabi-gcc"
+    candidate_directories:
+      - "C:/Users/javie/zephyr-sdk-0.17.4/"
+    searched_directories:
+      - "C:/Users/javie/zephyr-sdk-0.17.4/arm-zephyr-eabi/bin/arm-zephyr-eabi-gcc.com"
+    found: "C:/Users/javie/zephyr-sdk-0.17.4/arm-zephyr-eabi/bin/arm-zephyr-eabi-gcc.exe"
+    search_context:
+      CMAKE_PREFIX_PATH:
+        - "C:/Users/javie/zephyr-sdk-0.17.4/sysroots/AMD64-pokysdk-linux/usr"
+      ENV{PATH}:
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\ProgramData\\chocolatey\\bin"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Users\\javie\\AppData\\Local\\Programs\\Python\\Launcher\\"
+        - "C:\\Users\\javie\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\javie\\AppData\\Local\\Microsoft\\WinGet\\Links"
+        - "C:\\Users\\javie\\AppData\\Local\\Microsoft\\WinGet\\Packages\\oss-winget.dtc_Microsoft.Winget.Source_8wekyb3d8bbwe\\usr\\bin"
+        - "C:\\Users\\javie\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+      CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/Zephyr-Kernel"
+...
+
+---
+events:
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/FindPython/Support.cmake:2430 (find_program)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/FindPython3.cmake:656 (include)"
+      - "C:/Users/javie/zephyrproject/zephyr/cmake/modules/python.cmake:41 (find_package)"
+      - "C:/Users/javie/zephyrproject/zephyr/cmake/modules/zephyr_default.cmake:131 (include)"
+      - "C:/Users/javie/zephyrproject/zephyr/share/zephyr-package/cmake/ZephyrConfig.cmake:66 (include)"
+      - "C:/Users/javie/zephyrproject/zephyr/share/zephyr-package/cmake/ZephyrConfig.cmake:97 (include_boilerplate)"
+      - "CMakeLists.txt:5 (find_package)"
+    mode: "program"
+    variable: "_Python3_EXECUTABLE_DEBUG"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "python3.14_d"
+      - "python3.13_d"
+      - "python3.12_d"
+      - "python3.11_d"
+      - "python3.10_d"
+      - "python3_d"
+      - "python_d"
+    candidate_directories:
+      - "C:/Users/javie/zephyrproject/.venv/Scripts/"
+    searched_directories:
+      - "C:/Users/javie/zephyrproject/.venv/Scripts/python3.14_d.com"
+      - "C:/Users/javie/zephyrproject/.venv/Scripts/python3.14_d.exe"
+      - "C:/Users/javie/zephyrproject/.venv/Scripts/python3.14_d"
+      - "C:/Users/javie/zephyrproject/.venv/Scripts/python3.13_d.com"
+      - "C:/Users/javie/zephyrproject/.venv/Scripts/python3.13_d.exe"
+      - "C:/Users/javie/zephyrproject/.venv/Scripts/python3.13_d"
+      - "C:/Users/javie/zephyrproject/.venv/Scripts/python3.12_d.com"
+      - "C:/Users/javie/zephyrproject/.venv/Scripts/python3.12_d.exe"
+      - "C:/Users/javie/zephyrproject/.venv/Scripts/python3.12_d"
+      - "C:/Users/javie/zephyrproject/.venv/Scripts/python3.11_d.com"
+      - "C:/Users/javie/zephyrproject/.venv/Scripts/python3.11_d.exe"
+      - "C:/Users/javie/zephyrproject/.venv/Scripts/python3.11_d"
+      - "C:/Users/javie/zephyrproject/.venv/Scripts/python3.10_d.com"
+      - "C:/Users/javie/zephyrproject/.venv/Scripts/python3.10_d.exe"
+      - "C:/Users/javie/zephyrproject/.venv/Scripts/python3.10_d"
+      - "C:/Users/javie/zephyrproject/.venv/Scripts/python3_d.com"
+      - "C:/Users/javie/zephyrproject/.venv/Scripts/python3_d.exe"
+      - "C:/Users/javie/zephyrproject/.venv/Scripts/python3_d"
+      - "C:/Users/javie/zephyrproject/.venv/Scripts/python_d.com"
+      - "C:/Users/javie/zephyrproject/.venv/Scripts/python_d.exe"
+      - "C:/Users/javie/zephyrproject/.venv/Scripts/python_d"
+    found: false
+    search_context:
+      ENV{PATH}:
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\ProgramData\\chocolatey\\bin"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Users\\javie\\AppData\\Local\\Programs\\Python\\Launcher\\"
+        - "C:\\Users\\javie\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\javie\\AppData\\Local\\Microsoft\\WinGet\\Links"
+        - "C:\\Users\\javie\\AppData\\Local\\Microsoft\\WinGet\\Packages\\oss-winget.dtc_Microsoft.Winget.Source_8wekyb3d8bbwe\\usr\\bin"
+        - "C:\\Users\\javie\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+      CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/Zephyr-Kernel"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Users/javie/zephyrproject/zephyr/cmake/compiler/gcc/target.cmake:8 (find_program)"
+      - "C:/Users/javie/zephyrproject/zephyr/cmake/modules/FindTargetTools.cmake:103 (include)"
+      - "C:/Users/javie/zephyrproject/zephyr/cmake/modules/kernel.cmake:25 (find_package)"
+      - "C:/Users/javie/zephyrproject/zephyr/cmake/modules/zephyr_default.cmake:140 (include)"
+      - "C:/Users/javie/zephyrproject/zephyr/share/zephyr-package/cmake/ZephyrConfig.cmake:66 (include)"
+      - "C:/Users/javie/zephyrproject/zephyr/share/zephyr-package/cmake/ZephyrConfig.cmake:97 (include_boilerplate)"
+      - "CMakeLists.txt:5 (find_package)"
+    mode: "program"
+    variable: "CMAKE_C_COMPILER"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "C:/Users/javie/zephyr-sdk-0.17.4/arm-zephyr-eabi/bin/arm-zephyr-eabi-gcc"
+    candidate_directories:
+      - "C:/Users/javie/zephyr-sdk-0.17.4/"
+    searched_directories:
+      - "C:/Users/javie/zephyr-sdk-0.17.4/arm-zephyr-eabi/bin/arm-zephyr-eabi-gcc.com"
+    found: "C:/Users/javie/zephyr-sdk-0.17.4/arm-zephyr-eabi/bin/arm-zephyr-eabi-gcc.exe"
+    search_context:
+      CMAKE_PREFIX_PATH:
+        - "C:/Users/javie/zephyr-sdk-0.17.4/sysroots/AMD64-pokysdk-linux/usr"
+      ENV{PATH}:
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\ProgramData\\chocolatey\\bin"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Users\\javie\\AppData\\Local\\Programs\\Python\\Launcher\\"
+        - "C:\\Users\\javie\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\javie\\AppData\\Local\\Microsoft\\WinGet\\Links"
+        - "C:\\Users\\javie\\AppData\\Local\\Microsoft\\WinGet\\Packages\\oss-winget.dtc_Microsoft.Winget.Source_8wekyb3d8bbwe\\usr\\bin"
+        - "C:\\Users\\javie\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+      CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/Zephyr-Kernel"
+...
+
+---
+events:
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/FindPython/Support.cmake:2430 (find_program)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/FindPython3.cmake:656 (include)"
+      - "C:/Users/javie/zephyrproject/zephyr/cmake/modules/python.cmake:41 (find_package)"
+      - "C:/Users/javie/zephyrproject/zephyr/cmake/modules/zephyr_default.cmake:131 (include)"
+      - "C:/Users/javie/zephyrproject/zephyr/share/zephyr-package/cmake/ZephyrConfig.cmake:66 (include)"
+      - "C:/Users/javie/zephyrproject/zephyr/share/zephyr-package/cmake/ZephyrConfig.cmake:97 (include_boilerplate)"
+      - "CMakeLists.txt:5 (find_package)"
+    mode: "program"
+    variable: "_Python3_EXECUTABLE_DEBUG"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "python3.14_d"
+      - "python3.13_d"
+      - "python3.12_d"
+      - "python3.11_d"
+      - "python3.10_d"
+      - "python3_d"
+      - "python_d"
+    candidate_directories:
+      - "C:/Users/javie/zephyrproject/.venv/Scripts/"
+    searched_directories:
+      - "C:/Users/javie/zephyrproject/.venv/Scripts/python3.14_d.com"
+      - "C:/Users/javie/zephyrproject/.venv/Scripts/python3.14_d.exe"
+      - "C:/Users/javie/zephyrproject/.venv/Scripts/python3.14_d"
+      - "C:/Users/javie/zephyrproject/.venv/Scripts/python3.13_d.com"
+      - "C:/Users/javie/zephyrproject/.venv/Scripts/python3.13_d.exe"
+      - "C:/Users/javie/zephyrproject/.venv/Scripts/python3.13_d"
+      - "C:/Users/javie/zephyrproject/.venv/Scripts/python3.12_d.com"
+      - "C:/Users/javie/zephyrproject/.venv/Scripts/python3.12_d.exe"
+      - "C:/Users/javie/zephyrproject/.venv/Scripts/python3.12_d"
+      - "C:/Users/javie/zephyrproject/.venv/Scripts/python3.11_d.com"
+      - "C:/Users/javie/zephyrproject/.venv/Scripts/python3.11_d.exe"
+      - "C:/Users/javie/zephyrproject/.venv/Scripts/python3.11_d"
+      - "C:/Users/javie/zephyrproject/.venv/Scripts/python3.10_d.com"
+      - "C:/Users/javie/zephyrproject/.venv/Scripts/python3.10_d.exe"
+      - "C:/Users/javie/zephyrproject/.venv/Scripts/python3.10_d"
+      - "C:/Users/javie/zephyrproject/.venv/Scripts/python3_d.com"
+      - "C:/Users/javie/zephyrproject/.venv/Scripts/python3_d.exe"
+      - "C:/Users/javie/zephyrproject/.venv/Scripts/python3_d"
+      - "C:/Users/javie/zephyrproject/.venv/Scripts/python_d.com"
+      - "C:/Users/javie/zephyrproject/.venv/Scripts/python_d.exe"
+      - "C:/Users/javie/zephyrproject/.venv/Scripts/python_d"
+    found: false
+    search_context:
+      ENV{PATH}:
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\ProgramData\\chocolatey\\bin"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Users\\javie\\AppData\\Local\\Programs\\Python\\Launcher\\"
+        - "C:\\Users\\javie\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\javie\\AppData\\Local\\Microsoft\\WinGet\\Links"
+        - "C:\\Users\\javie\\AppData\\Local\\Microsoft\\WinGet\\Packages\\oss-winget.dtc_Microsoft.Winget.Source_8wekyb3d8bbwe\\usr\\bin"
+        - "C:\\Users\\javie\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+      CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/Zephyr-Kernel"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Users/javie/zephyrproject/zephyr/cmake/compiler/gcc/target.cmake:8 (find_program)"
+      - "C:/Users/javie/zephyrproject/zephyr/cmake/modules/FindTargetTools.cmake:103 (include)"
+      - "C:/Users/javie/zephyrproject/zephyr/cmake/modules/kernel.cmake:25 (find_package)"
+      - "C:/Users/javie/zephyrproject/zephyr/cmake/modules/zephyr_default.cmake:140 (include)"
+      - "C:/Users/javie/zephyrproject/zephyr/share/zephyr-package/cmake/ZephyrConfig.cmake:66 (include)"
+      - "C:/Users/javie/zephyrproject/zephyr/share/zephyr-package/cmake/ZephyrConfig.cmake:97 (include_boilerplate)"
+      - "CMakeLists.txt:5 (find_package)"
+    mode: "program"
+    variable: "CMAKE_C_COMPILER"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "C:/Users/javie/zephyr-sdk-0.17.4/arm-zephyr-eabi/bin/arm-zephyr-eabi-gcc"
+    candidate_directories:
+      - "C:/Users/javie/zephyr-sdk-0.17.4/"
+    searched_directories:
+      - "C:/Users/javie/zephyr-sdk-0.17.4/arm-zephyr-eabi/bin/arm-zephyr-eabi-gcc.com"
+    found: "C:/Users/javie/zephyr-sdk-0.17.4/arm-zephyr-eabi/bin/arm-zephyr-eabi-gcc.exe"
+    search_context:
+      CMAKE_PREFIX_PATH:
+        - "C:/Users/javie/zephyr-sdk-0.17.4/sysroots/AMD64-pokysdk-linux/usr"
+      ENV{PATH}:
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\ProgramData\\chocolatey\\bin"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Users\\javie\\AppData\\Local\\Programs\\Python\\Launcher\\"
+        - "C:\\Users\\javie\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\javie\\AppData\\Local\\Microsoft\\WinGet\\Links"
+        - "C:\\Users\\javie\\AppData\\Local\\Microsoft\\WinGet\\Packages\\oss-winget.dtc_Microsoft.Winget.Source_8wekyb3d8bbwe\\usr\\bin"
+        - "C:\\Users\\javie\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+      CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/Zephyr-Kernel"
+...
+
+---
+events:
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/FindPython/Support.cmake:2430 (find_program)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/FindPython3.cmake:656 (include)"
+      - "C:/Users/javie/zephyrproject/zephyr/cmake/modules/python.cmake:41 (find_package)"
+      - "C:/Users/javie/zephyrproject/zephyr/cmake/modules/zephyr_default.cmake:131 (include)"
+      - "C:/Users/javie/zephyrproject/zephyr/share/zephyr-package/cmake/ZephyrConfig.cmake:66 (include)"
+      - "C:/Users/javie/zephyrproject/zephyr/share/zephyr-package/cmake/ZephyrConfig.cmake:97 (include_boilerplate)"
+      - "CMakeLists.txt:5 (find_package)"
+    mode: "program"
+    variable: "_Python3_EXECUTABLE_DEBUG"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "python3.14_d"
+      - "python3.13_d"
+      - "python3.12_d"
+      - "python3.11_d"
+      - "python3.10_d"
+      - "python3_d"
+      - "python_d"
+    candidate_directories:
+      - "C:/Users/javie/zephyrproject/.venv/Scripts/"
+    searched_directories:
+      - "C:/Users/javie/zephyrproject/.venv/Scripts/python3.14_d.com"
+      - "C:/Users/javie/zephyrproject/.venv/Scripts/python3.14_d.exe"
+      - "C:/Users/javie/zephyrproject/.venv/Scripts/python3.14_d"
+      - "C:/Users/javie/zephyrproject/.venv/Scripts/python3.13_d.com"
+      - "C:/Users/javie/zephyrproject/.venv/Scripts/python3.13_d.exe"
+      - "C:/Users/javie/zephyrproject/.venv/Scripts/python3.13_d"
+      - "C:/Users/javie/zephyrproject/.venv/Scripts/python3.12_d.com"
+      - "C:/Users/javie/zephyrproject/.venv/Scripts/python3.12_d.exe"
+      - "C:/Users/javie/zephyrproject/.venv/Scripts/python3.12_d"
+      - "C:/Users/javie/zephyrproject/.venv/Scripts/python3.11_d.com"
+      - "C:/Users/javie/zephyrproject/.venv/Scripts/python3.11_d.exe"
+      - "C:/Users/javie/zephyrproject/.venv/Scripts/python3.11_d"
+      - "C:/Users/javie/zephyrproject/.venv/Scripts/python3.10_d.com"
+      - "C:/Users/javie/zephyrproject/.venv/Scripts/python3.10_d.exe"
+      - "C:/Users/javie/zephyrproject/.venv/Scripts/python3.10_d"
+      - "C:/Users/javie/zephyrproject/.venv/Scripts/python3_d.com"
+      - "C:/Users/javie/zephyrproject/.venv/Scripts/python3_d.exe"
+      - "C:/Users/javie/zephyrproject/.venv/Scripts/python3_d"
+      - "C:/Users/javie/zephyrproject/.venv/Scripts/python_d.com"
+      - "C:/Users/javie/zephyrproject/.venv/Scripts/python_d.exe"
+      - "C:/Users/javie/zephyrproject/.venv/Scripts/python_d"
+    found: false
+    search_context:
+      ENV{PATH}:
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\ProgramData\\chocolatey\\bin"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Users\\javie\\AppData\\Local\\Programs\\Python\\Launcher\\"
+        - "C:\\Users\\javie\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\javie\\AppData\\Local\\Microsoft\\WinGet\\Links"
+        - "C:\\Users\\javie\\AppData\\Local\\Microsoft\\WinGet\\Packages\\oss-winget.dtc_Microsoft.Winget.Source_8wekyb3d8bbwe\\usr\\bin"
+        - "C:\\Users\\javie\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+      CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/Zephyr-Kernel"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Users/javie/zephyrproject/zephyr/cmake/compiler/gcc/target.cmake:8 (find_program)"
+      - "C:/Users/javie/zephyrproject/zephyr/cmake/modules/FindTargetTools.cmake:103 (include)"
+      - "C:/Users/javie/zephyrproject/zephyr/cmake/modules/kernel.cmake:25 (find_package)"
+      - "C:/Users/javie/zephyrproject/zephyr/cmake/modules/zephyr_default.cmake:140 (include)"
+      - "C:/Users/javie/zephyrproject/zephyr/share/zephyr-package/cmake/ZephyrConfig.cmake:66 (include)"
+      - "C:/Users/javie/zephyrproject/zephyr/share/zephyr-package/cmake/ZephyrConfig.cmake:97 (include_boilerplate)"
+      - "CMakeLists.txt:5 (find_package)"
+    mode: "program"
+    variable: "CMAKE_C_COMPILER"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "C:/Users/javie/zephyr-sdk-0.17.4/arm-zephyr-eabi/bin/arm-zephyr-eabi-gcc"
+    candidate_directories:
+      - "C:/Users/javie/zephyr-sdk-0.17.4/"
+    searched_directories:
+      - "C:/Users/javie/zephyr-sdk-0.17.4/arm-zephyr-eabi/bin/arm-zephyr-eabi-gcc.com"
+    found: "C:/Users/javie/zephyr-sdk-0.17.4/arm-zephyr-eabi/bin/arm-zephyr-eabi-gcc.exe"
+    search_context:
+      CMAKE_PREFIX_PATH:
+        - "C:/Users/javie/zephyr-sdk-0.17.4/sysroots/AMD64-pokysdk-linux/usr"
+      ENV{PATH}:
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\ProgramData\\chocolatey\\bin"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Users\\javie\\AppData\\Local\\Programs\\Python\\Launcher\\"
+        - "C:\\Users\\javie\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\javie\\AppData\\Local\\Microsoft\\WinGet\\Links"
+        - "C:\\Users\\javie\\AppData\\Local\\Microsoft\\WinGet\\Packages\\oss-winget.dtc_Microsoft.Winget.Source_8wekyb3d8bbwe\\usr\\bin"
+        - "C:\\Users\\javie\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+      CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/Zephyr-Kernel"
+...
